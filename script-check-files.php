@@ -1,4 +1,14 @@
 <?php
+
+/**
+ * Check existence of database files.
+ * Use to list all files that stored in database but is not exists in files folder.
+ * No worries to run this script since it is just read from database and print the result.
+ * @category Drupal PHP Script.
+ * @version 1.0.1
+ * @author Saud [@samaphp]
+ */
+
 define('DRUPAL_ROOT', getcwd());
 include_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
