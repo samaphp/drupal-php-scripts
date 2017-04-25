@@ -1,4 +1,19 @@
 <?php
+
+/**
+ * BE CAREFUL WHEN USE THIS SCRIPT.
+ * Reset all user passwords and send email to reset password.
+ * Use to force all users to reset password and to if there is any password leak suspect.
+ * No worries to run this script since it is just read from database and print the result.
+ * @todo Show node details if the file saved as node field.
+ * @todo Show user details if the file saved in user object field.
+ * @todo Show user profile2 details if the file saved as profile2 field.
+ * @todo Show node details if the file saved as comment field.
+ * @category Drupal PHP Script.
+ * @version 1.0.1
+ * @author Saud [@samaphp]
+ */
+
 define('DRUPAL_ROOT', getcwd());
 include_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
