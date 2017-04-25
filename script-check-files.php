@@ -4,6 +4,10 @@
  * Check existence of database files.
  * Use to list all files that stored in database but is not exists in files folder.
  * No worries to run this script since it is just read from database and print the result.
+ * @todo Show node details if the file saved as node field.
+ * @todo Show user details if the file saved in user object field.
+ * @todo Show user profile2 details if the file saved as profile2 field.
+ * @todo Show node details if the file saved as comment field.
  * @category Drupal PHP Script.
  * @version 1.0.1
  * @author Saud [@samaphp]
