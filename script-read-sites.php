@@ -12,7 +12,7 @@ drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
   foreach ($sites_list as $val) {
     if (!is_dir($site_path . $val)) {
       $excluded_other_dir[] = $val;
-    }elseif(!file_exists($site_path . $val.'/settings.php')){
+    }elseif(!file_exists($site_path . $val. DIRECTORY_SEPARATOR .'settings.php')){
       $excluded_other_dir[] = $val;
     }elseif( in_array($val, $excluded_dir) ){
       $excluded_other_dir[] = $val;
