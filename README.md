@@ -1,7 +1,9 @@
 # Description
 Drupal PHP scripts to help you doing quick one-time solutions or testing some processes.
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![drupal8snip](https://img.shields.io/badge/drupal8-snippets-53b0eb.svg)](http://samaphp.com/drupal8snip)
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](http://samaphp.com/contact-me)
 
 
 # Main purpose
